@@ -1,0 +1,92 @@
+nav{
+  position:relative;
+  top:83px;
+  text-align: center;
+  margin-right: 50px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+padding: 5px;
+}
+header{
+  background-color: teal;
+  color:white;
+  height:200px;
+  opacity: 1.0;
+  padding: 5px;
+}
+ul a{
+  color:gold;
+}
+li{
+display:inline-block;
+background-color:Navy;
+text-align: center;
+height:22px;
+width:100px;
+border-left: 2px;
+border-right: 2px;
+}
+a:hover{
+  background-color:gold;
+  color:darkgreen;
+}
+a:active{
+  background-color:Navy;
+  color:gold;
+}
+footer{
+  background-color:  teal;
+  color:white;
+  opacity: 1.0;
+height:200px;
+padding: 5px;
+position:relative;
+top:236px;
+}
+input[type="text"], input[type="text"], input[type="email"], textarea, button{
+  display:block;
+  margin: 15px 0px;
+  height:30px;
+  width:250px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 2px teal;
+  text-align: center;
+  position:relative;
+  top:15px;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+}
+.teal{
+  color: teal;
+    text-align:center;
+}
+button:hover{
+  background-color:gold;
+  color:darkgreen;
+}
+button:active{
+  background-color:navy;
+  color:gold;
+}
+button{
+color:navy;
+}
+form{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  #form{
+margin-right: 0px;
+margin-left: 750px;
+width: 260px;
+  }
+.head, .foot{
+  margin-left:5px;
+  margin-right:5px;
+  text-align:center;
+}
